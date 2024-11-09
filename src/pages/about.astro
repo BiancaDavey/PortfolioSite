@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About" description="About">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+			>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						<br><br>Hi there! I’m Bianca Davey. 
+						I’m passionate about creatively utilising technology to create engaging experiences.  
+						<br><br>I have experience in collaborative software development, over 6 years of experience 
+						in project management and client relations, and a Masters degree in Information Technology from the 
+						University of New England, Australia.
+						<br><br>I’ve lived and worked in Australia, the USA and Europe, and I speak German at the B2 level. 
+						I’m based in London. 
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Technical Skills</h2>
+				<div class="content">
+					<p>
+						<br><br>
+						<ul>
+							<li>Object-oriented programming with Java, Kotlin, C#</li>
+							<li>Python</li>
+							<li>Web development with HTML, HTML5, CSS, React, Angular, JavaScript, TypeScript, Express, MERN stack, Spring Boot</li>
+							<li>Database management with MySQL, postGreSQL, MariaDB, MongoDB, relational database models</li>
+							<li>Data visualisation with Metabase, RapidMiner</li>
+							<li>Development with Visual Studio Code, IntelliJ, Unity, Android Studio</li>
+							<li>Version control with Git, Github</li>
+						</ul>
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>
+						<br><br>
+						<ul>
+							<li>Project management with Agile methodology</li>
+							<li>Microsoft Office Suite, Jira, Notion, Trello</li>
+							<li>Evaluative reporting</li>
+							<li>Communication and team management</li>
+							<li>Stakeholder relations and client liaison</li>
+						</ul>
+					</p>
+				</div>
+			</section>
+						<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>
+						<br><br>
+						<ul>
+							<li>Masters of Information Technology with Vice-Chancellor’s Scholars Award – University of New England, 2023 – GPA 6.88/7</li>
+							<li>MA in International Event Management with Distinction, Manchester Metropolitan University, 2019</li>
+							<li>Diploma of Languages in German – Macquarie University, 2018 with B2 German Certification, Universitat Duisberg-Essen, 2017</li>
+							<li>Bachelor of Law and Bachelor of Arts with Distinction – University of Wollongong, 2014</li>
+							<li>Higher School Certificate (Australia) – Smith’s Hill High School, 2009 – ATAR 94.5/100</li>
+						</ul>
+					</p>
+				</div>
+			</section>
+						<section>
+				<h2 class="section-title">Recent Experience</h2>
+				<div class="content">
+					<p>
+						<br><br>
+						<ul>
+							<li>Website Production Coordinator, Made Media, London, UK, 2024-current</li>
+							<li>Project Administrator (3 Month Contract), Clarion / IFA Berlin, London, UK, 2023</li>
+							<li>Product Manager, MyMiniFactory, London, UK, 2021-2023</li>
+							<li>Sales Engineering Summer Intern with Corda Certification, R3, London, UK, 2021</li>
+							<li>Event Manager, Expedition America, San Francisco, USA, 2019-2020</li>
+						</ul>
+					</p>
+				</div>
+			</section>
+		</main>
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
