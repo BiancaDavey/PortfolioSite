@@ -1,7 +1,7 @@
 ---
 title: Python DFS - Sudoku Solver
 publishDate: 2024-12-27 00:00:00
-img: /assets/sudoku0.png
+img: /PortfolioSite/assets/sudoku0.png
 img_alt: Image of project
 description: |
 tags:

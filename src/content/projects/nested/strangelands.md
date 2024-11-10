@@ -1,7 +1,7 @@
 ---
 title: Unity C# Game - Strangelands
 publishDate: 2024-12-31 00:00:00
-img: /assets/strangelands1.png
+img: /PortfolioSite/assets/strangelands1.png
 img_alt: Image of project
 description: |
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Spring Boot - Client Management App
 publishDate: 2024-12-28 00:00:00
-img: /assets/client-application0.png
+img: /PortfolioSite/assets/client-application0.png
 img_alt: Image of project
 description: |
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Adobe Photoshop - Digital Art
 publishDate: 2024-12-29 00:00:00
-img: /assets/digital-art-dice0.png
+img: /PortfolioSite/assets/digital-art-dice0.png
 img_alt: Image of project
 description: |
 tags:

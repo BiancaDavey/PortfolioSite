@@ -1,7 +1,7 @@
 ---
 title: Java - Bank Accounts
 publishDate: 2024-12-26 00:00:00
-img: /assets/bank-account0.png
+img: /PortfolioSite/assets/bank-account0.png
 img_alt: Image of project
 description: |
 tags:

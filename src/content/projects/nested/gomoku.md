@@ -1,7 +1,7 @@
 ---
 title: MERN Stack - Gomoku Game
 publishDate: 2024-12-30 00:00:00
-img: /assets/gomoku0.png
+img: /PortfolioSite/assets/gomoku0.png
 img_alt: Image of project
 description: |
 tags:
