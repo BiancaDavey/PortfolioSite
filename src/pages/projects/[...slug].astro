@@ -46,6 +46,7 @@ const { Content } = await entry.render();
 					<div class="content">
 						<Content />
 					</div>
+					{entry.data.img2 && <img src={entry.data.img2} alt={entry.data.img2_alt || ''} />}
 				</div>
 			</main>
 		</div>

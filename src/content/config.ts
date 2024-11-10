@@ -10,6 +10,8 @@ export const collections = {
 			tags: z.array(z.string()),
 			img: z.string(),
 			img_alt: z.string().optional(),
+			img2: z.string().optional(),
+			img2_alt: z.string().optional(),
 		}),
 	}),
 };
