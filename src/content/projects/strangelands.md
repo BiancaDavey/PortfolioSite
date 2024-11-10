@@ -5,9 +5,10 @@ img: /assets/strangelands1.png
 img_alt: Image of project
 description: |
 tags:
+  - GameDev
   - Unity
   - C#
-  - GameDev
+  - OOP
 ---
 
 Discover another realm on an impromptu trip through a mysterious portal, prompted by the disappearance of your mischievous cat on an otherwise ordinary Halloween night. 
