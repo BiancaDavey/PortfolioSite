@@ -13,4 +13,4 @@ This program simulates the creation of bank accounts and speciality savings acco
 
 The program provides functions for making withdrawals and deposits, with applicable transaction fees and the updated total balance calculated automatically. The program also enables users to compare the state of different account objects.
 
-Click to view the project on <a href="https://github.com/BiancaDavey/BankAccounts">GitHub</a>.
+Click to view the project on <a href="https://github.com/BiancaDavey/BankAccounts" target="_blank">GitHub</a>.
