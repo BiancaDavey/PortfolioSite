@@ -17,4 +17,4 @@ The program backtracks and re-assigns cells to an empty 0 if matches are found f
 
 The state of the sudoku puzzle is provided to the user in a visual form through terminal output.
 
-Click to view the project on <a href="https://github.com/BiancaDavey/SudokuDepthFirstSearch" target="_blank">GitHub</a>.
+Click to view the project on <b><a href="https://github.com/BiancaDavey/SudokuDepthFirstSearch" target="_blank">GitHub</a></b>.

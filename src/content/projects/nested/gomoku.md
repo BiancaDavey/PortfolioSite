@@ -18,7 +18,7 @@ tags:
 
 This application features a playable gomoku game, and sign up and login validation restricting access to authenticated users. Using a React framework, Express.js, Node.js and MongoDB.
 
-Click to view the project on <a href="https://github.com/BiancaDavey/Gomoku-Game/" target="_blank">GitHub</a>.
+Click to view the project on <b><a href="https://github.com/BiancaDavey/Gomoku-Game/" target="_blank">GitHub</a></b>.
 
 ### Features
 

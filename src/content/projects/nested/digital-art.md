@@ -15,4 +15,4 @@ Custom dice theme mod for BG3.
 
 A BG3 mod providing custom dice skins with an aurora borealis theme. Digital art made with Adobe Photoshop.
 
-Click to view the <a href="https://www.nexusmods.com/baldursgate3/mods/2158" target="_blank">dice mod</a>.
+Click to view the <b><a href="https://www.nexusmods.com/baldursgate3/mods/2158" target="_blank">dice mod</a></b>.

@@ -17,9 +17,9 @@ Discover another realm on an impromptu trip through a mysterious portal, prompte
 
 A top-down 2D RPG made with Unity and C#. WIP.
 
-Play a demo scene featuring a catch-and-collect mini game online <a href="https://biancadavey.github.io/DemoGame/" target="_blank">here</a>. Use E to interact and P to pause.
+Play a demo scene featuring a catch-and-collect mini game online <b><a href="https://biancadavey.github.io/DemoGame/" target="_blank">here</a></b>. Use E to interact and P to pause.
 
-Download the playable demo on <a href="https://lunar-raven.itch.io/strangelands?secret=5cSTV6lX95qrWUb6SPEXrkAqojk" target="_blank">itch.io</a>.
+Download the playable demo on <b><a href="https://lunar-raven.itch.io/strangelands?secret=5cSTV6lX95qrWUb6SPEXrkAqojk" target="_blank">itch.io</a></b>.
 
 ### Gameplay Examples
 

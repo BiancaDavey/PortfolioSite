@@ -16,7 +16,7 @@ tags:
 
 This full stack application allows users to view and manage clients.
 
-Click to view the project on <a href="https://github.com/BiancaDavey/ManagementApplicationSpringBoot" target="_blank">GitHub</a>.
+Click to view the project on <b><a href="https://github.com/BiancaDavey/ManagementApplicationSpringBoot" target="_blank">GitHub</a></b>.
 
 ### Features
 
