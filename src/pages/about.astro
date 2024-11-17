@@ -31,31 +31,65 @@ import Edu from '../components/Edu.astro';
 			<section>
 				<h2 class="section-title">Technical Skills</h2>
 				<div class="content">
-					<p>
-						<br><br>
-						<ul>
-							<li>Object-oriented programming with Java, Kotlin, C#</li>
-							<li>Python</li>
-							<li>Web development with HTML, HTML5, CSS, React, Angular, JavaScript, TypeScript, Express, MERN stack, Spring Boot</li>
-							<li>Database management with MySQL, postGreSQL, MariaDB, MongoDB, relational database models</li>
-							<li>Data visualisation with Metabase, RapidMiner</li>
-							<li>Development with Visual Studio Code, IntelliJ, Unity, Android Studio</li>
-							<li>Version control with Git, Github</li>
-						</ul>
-					</p>
+					<p><br></br><b>Software Development</b></p>
+					<div class="roles">
+						<Pill><Icon icon="terminal-window" size="1.33em" />Java</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" />Kotlin</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" />C#</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" />OOP</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" />Python</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" />Visual Studio Code</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" />IntelliJ</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" />Git</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" />Game Development</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" />Unity</Pill>
+					</div>
+					<p><br></br><b>Web Development</b></p>
+					<div class="roles">
+						<Pill><Icon icon="code" size="1.33em" />TypeScript</Pill>
+						<Pill><Icon icon="code" size="1.33em" />JavaScript</Pill>
+						<Pill><Icon icon="code" size="1.33em" />CSS</Pill>
+						<Pill><Icon icon="code" size="1.33em" />HTML</Pill>
+						<Pill><Icon icon="code" size="1.33em" />React</Pill>
+						<Pill><Icon icon="code" size="1.33em" />Angular</Pill>
+						<Pill><Icon icon="code" size="1.33em" />Express.js</Pill>
+						<Pill><Icon icon="code" size="1.33em" />Node.js</Pill>
+						<Pill><Icon icon="code" size="1.33em" />MERN Stack</Pill>
+						<Pill><Icon icon="code" size="1.33em" />Spring Boot</Pill>
+					</div>
+					<p><br></br><b>Data Management</b></p>
+					<div class="roles">
+						<Pill><Icon icon="list" size="1.33em" />MySQL</Pill>
+						<Pill><Icon icon="list" size="1.33em" />postGreSQL</Pill>
+						<Pill><Icon icon="list" size="1.33em" />MariaDB</Pill>
+						<Pill><Icon icon="list" size="1.33em" />Relational DB Models</Pill>
+						<Pill><Icon icon="list" size="1.33em" />MongoDB</Pill>
+						<Pill><Icon icon="list" size="1.33em" />Data Visualisation</Pill>
+						<Pill><Icon icon="list" size="1.33em" />Metabase</Pill>
+						<Pill><Icon icon="list" size="1.33em" />RapidMiner</Pill>
+						<Pill><Icon icon="pencil-line" size="1.33em" />Excel</Pill>
+					</div>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
+					<p><br></br><b>Project Management Tools</b></p>
+					<div class="roles">
+						<Pill><Icon icon="pencil-line" size="1.33em" />Jira</Pill>
+						<Pill><Icon icon="pencil-line" size="1.33em" />Trello</Pill>
+						<Pill><Icon icon="pencil-line" size="1.33em" />Notion</Pill>
+						<Pill><Icon icon="pencil-line" size="1.33em" />Microsoft Office Suite</Pill>
+					</div>
 					<p>
-						<br><br>
+						<p><br></br><b>Project Management</b></p>
 						<ul>
-							<li>Project management with Agile methodology</li>
-							<li>Microsoft Office Suite, Jira, Notion, Trello</li>
+							<li>Project management and web production</li>
+							<li>Agile methodology, sprint planning and demos</li>
+							<li>QA and remediation</li>
 							<li>Evaluative reporting</li>
 							<li>Communication and team management</li>
-							<li>Stakeholder relations and client liaison</li>
+							<li>Stakeholder management and client liaison</li>
 						</ul>
 					</p>
 				</div>
@@ -72,11 +106,10 @@ import Edu from '../components/Edu.astro';
 					<p>
 						<br><br>
 						<ul>
-							<li>Website Production Coordinator, Made Media, London, UK, 2024-current</li>
-							<li>Project Administrator (3 Month Contract), Clarion / IFA Berlin, London, UK, 2023</li>
-							<li>Product Manager, MyMiniFactory, London, UK, 2021-2023</li>
-							<li>Sales Engineering Summer Intern with Corda Certification, R3, London, UK, 2021</li>
-							<li>Event Manager, Expedition America, San Francisco, USA, 2019-2020</li>
+							<li><b>Website Production Coordinator</b>, Made Media, London, UK, 2024-current</li>
+							<li><b>Product Manager</b>, MyMiniFactory, London, UK, 2021-2023</li>
+							<li><b>Sales Engineering Summer Intern with Corda Certification</b>, R3, London, UK, 2021</li>
+							<li><b>Event Manager</b>, Expedition America, San Francisco, USA, 2019-2020</li>
 						</ul>
 					</p>
 				</div>
@@ -129,6 +162,7 @@ import Edu from '../components/Edu.astro';
 	.roles {
 			margin-top: 0.5rem;
 			display: flex;
+			flex-wrap: wrap;
 			gap: 0.5rem;
 	}
 
