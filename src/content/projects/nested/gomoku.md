@@ -1,5 +1,5 @@
 ---
-title: MERN Stack - Gomoku Game
+title: Gomoku Game
 publishDate: 2024-12-30 00:00:00
 img: /PortfolioSite/assets/gomoku0.png
 img_alt: Image of project
@@ -9,11 +9,16 @@ description: |
 tags:
   - MERN Stack
   - React
-  - TypeScript
   - CSS
+  - HTML
+  - TypeScript
   - Express.js
   - Node.js
   - MongoDB
+preview_tags:
+  - Web Dev
+  - Full-Stack
+  - MERN Stack
 ---
 
 This application features a playable gomoku game, and sign up and login validation restricting access to authenticated users. Using a React framework, Express.js, Node.js and MongoDB.

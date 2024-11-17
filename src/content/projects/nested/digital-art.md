@@ -1,5 +1,5 @@
 ---
-title: Adobe Photoshop - Digital Art
+title: Digital Art
 publishDate: 2024-12-29 00:00:00
 img: /PortfolioSite/assets/dice0.png
 img_alt: Image of project
@@ -7,6 +7,10 @@ img2: /PortfolioSite/assets/dice1.png
 img2_alt: Image of project
 description: |
 tags:
+  - Adobe Photoshop
+  - Game Mod
+preview_tags:
+  - Digital Art
   - Adobe Photoshop
   - Game Mod
 ---

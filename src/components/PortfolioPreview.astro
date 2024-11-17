@@ -1,5 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import Icon from '../../components/Icon.astro';
+import Pill from './Pill.astro';
 
 interface Props {
 	project: CollectionEntry<'projects'>;
@@ -9,7 +11,8 @@ const { data, slug } = Astro.props.project;
 ---
 
 <a class="card" href={`/PortfolioSite/projects/${slug}`}>
-	<span class="title">{data.title}</span>
+	<span class="tags">{data.preview_tags.map((t)=><Pill>{t}</Pill>)}</span>
+	
 	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
 </a>
 
@@ -36,7 +39,7 @@ const { data, slug } = Astro.props.project;
 
 	.title {
 		grid-area: 1 / 1 / 2 / 2;
-		z-index: 1;
+		z-index: 0;
 		margin: 0.5rem;
 		padding: 0.5rem 1rem;
 		background: var(--gray-999);
@@ -51,6 +54,16 @@ const { data, slug } = Astro.props.project;
 		object-fit: cover;
 	}
 
+	.tags {
+		grid-area: 1 / 1 / 1 / 1;
+		display: flex;
+		flex-wrap: wrap;
+		z-index: 1;
+		margin: 0.5rem;
+		gap: 0.5rem;
+		padding: 0.5rem 1rem;
+	}
+
 	@media (min-width: 50em) {
 		.card {
 			height: 22rem;
@@ -59,6 +72,14 @@ const { data, slug } = Astro.props.project;
 
 		.title {
 			border-radius: 0.9375rem;
+		}
+
+		.tags {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0.5rem;
+			gap: 0.5rem;
+			padding: 0.5rem 1rem;
 		}
 	}
 </style>

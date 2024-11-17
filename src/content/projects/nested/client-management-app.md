@@ -1,5 +1,5 @@
 ---
-title: Spring Boot - Client Management App
+title: Client Management Application
 publishDate: 2024-12-28 00:00:00
 img: /PortfolioSite/assets/client-application0.png
 img_alt: Image of project
@@ -12,6 +12,12 @@ tags:
   - MySQL
   - Angular
   - TypeScript
+preview_tags:
+  - Java
+  - Spring Boot
+  - MySQL
+  - Angular
+  - TS
 ---
 
 This full stack application allows users to view and manage clients.

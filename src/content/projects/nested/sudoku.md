@@ -1,5 +1,5 @@
 ---
-title: Python DFS - Sudoku Solver
+title: Sudoku Solver
 publishDate: 2024-12-27 00:00:00
 img: /PortfolioSite/assets/sudoku0.png
 img_alt: Image of project
@@ -7,6 +7,9 @@ description: |
 tags:
   - Python
   - Depth First Search Algorithm
+preview_tags:
+  - Python
+  - DFS
 ---
 
 This program implements a Depth First Search algorithm to solve a sudoku puzzle.

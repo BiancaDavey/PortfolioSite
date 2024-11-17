@@ -1,10 +1,13 @@
 ---
-title: Java - Bank Accounts
+title: Bank Accounts Application
 publishDate: 2024-12-26 00:00:00
 img: /PortfolioSite/assets/bank-account0.png
 img_alt: Image of project
 description: |
 tags:
+  - Java
+  - OOP
+preview_tags:
   - Java
   - OOP
 ---

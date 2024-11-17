@@ -1,5 +1,5 @@
 ---
-title: Unity C# Game - Strangelands
+title: Strangelands RPG
 publishDate: 2024-12-31 00:00:00
 img: /PortfolioSite/assets/strangelands1.png
 img_alt: Image of project
@@ -7,7 +7,12 @@ img2: /PortfolioSite/assets/strangelands0.png
 img2_alt: Image of project
 description: |
 tags:
-  - GameDev
+  - Game Dev
+  - Unity
+  - C#
+  - Object Oriented Programming
+preview_tags:
+  - Game Dev
   - Unity
   - C#
   - OOP
