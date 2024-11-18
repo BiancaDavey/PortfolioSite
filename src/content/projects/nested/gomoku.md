@@ -15,6 +15,7 @@ tags:
   - Express.js
   - Node.js
   - MongoDB
+  - User Authentication
 preview_tags:
   - Web Dev
   - Full-Stack
