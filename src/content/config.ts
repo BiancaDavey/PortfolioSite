@@ -13,6 +13,8 @@ export const collections = {
 			img_alt: z.string().optional(),
 			img2: z.string().optional(),
 			img2_alt: z.string().optional(),
+			img3: z.string().optional(),
+			img3_alt: z.string().optional(),
 		}),
 	}),
 };
